@@ -1,0 +1,20 @@
+{
+    "name": "jacklam/u-editor-bundle",
+    "description": "Provides a UEditor integration for your Symfony2 project.",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "JackLam",
+            "email": "jack@wizmacau.com"
+        }
+    ],
+    "require": {
+        "symfony/framework-bundle": "~2.0"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.4.3-dev"
+        }
+    },
+}
