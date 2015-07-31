@@ -10,7 +10,12 @@
         }
     ],
     "require": {
-        "symfony/framework-bundle": "~2.0"
+        "symfony/framework-bundle": ">=2.3,<3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wiz\\ResqueBundle": ""
+        }
     },
     "extra": {
         "branch-alias": {
